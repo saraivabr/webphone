@@ -1,6 +1,5 @@
 import webphone from "@/index.tsx";
 
-console.log("Rendering");
 await webphone.render({
   statusBar: {
     showNotificationsIcon: true,
@@ -14,4 +13,3 @@ await webphone.render({
     },
   },
 });
-console.log("API ready");
